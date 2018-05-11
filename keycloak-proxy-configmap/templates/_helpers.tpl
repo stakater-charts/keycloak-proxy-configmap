@@ -23,7 +23,7 @@ provider: {{ .Values.keycloakProxyConfigmap.labels.provider }}
 
 {{- define "labels.stakater" -}}
 {{ template "labels.selector" . }}
-version: {{ .Values.keycloakProxyConfigmap.labels.version | quote }}
+version: "{{ .Values.keycloakProxyConfigmap.labels.version }}"
 {{- end -}}
 
 {{- define "labels.chart" -}}
