@@ -5,7 +5,7 @@ version: 1.0.0
 keywords:
   - keycloak-proxy-configmap
   - kubernetes
-home: https://github.com/stakater/chart-keycloak-proxy-configmap
+home: https://github.com/stakater-charts/keycloak-proxy-configmap
 maintainers:
 - name: Stakater
   email: stakater@aurorasolutions.io
